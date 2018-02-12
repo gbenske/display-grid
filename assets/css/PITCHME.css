@@ -9,18 +9,18 @@
   font-size: 2.8em;
   margin-top: 50px;
   margin-bottom: 100px;
-  color: #1db992;
+  color: #94d500;
 }
 
 .reveal h2{
   font-size: 1.5em;
-  color: #1db992;
+  color: #94d500;
 }
 
 .reveal h3{
   font-size: 0.8em;
   padding-bottom: 70px;
-  color: #1db992;
+  color: #94d500;
 }
 
 .reveal pre {
@@ -70,7 +70,7 @@
 }
 
 .reveal:not(.has-vertical-slides) .controls .navigate-right, .reveal:not(.has-vertical-slides) .controls .navigate-left, .reveal .progress{
-  color: #1db992;
+  color: #94d500;
 }
 
 #title-footer #notification{
@@ -92,5 +92,5 @@
 }
 
 .reveal strong{
-  color: #1db992;
+  color: #94d500;
 }
