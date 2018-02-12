@@ -8,6 +8,8 @@
 ## Vorteile von Display Grid
 
 - Einfaches Strukturieren der Inhalte |
+- Keine float oder inline-block mehr nötig |
+- 
 
 ---
 
@@ -19,6 +21,7 @@
   + IE 11 unterstützt es nur teils, darunter nicht mehr
   + Spezielle Prefixe nötig für IE
 - Neu im Webbereich |
+- Nicht Anfängerfreundlich
 
 ---
 
@@ -27,7 +30,9 @@
 - Grid |
  + weniger media queries
  + Positionierung der Elemente in 2 Dimensionen (columns und rows)
+ + keine gescheite Navigation möglich
 
+- Flex |
 
 ---
 
@@ -35,9 +40,9 @@
 
 ---
 
-@title[JavaScript Block]
+@title[Grid Block]
 
-<p><span class="slide-title">JavaScript Block</span></p>
+<p><span class="slide-title">Grid</span></p>
 
 ```javascript
 // Include http module.
