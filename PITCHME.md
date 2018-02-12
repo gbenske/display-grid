@@ -8,24 +8,17 @@
 ## Vorteile von Display Grid
 
 - Einfaches Strukturieren der Inhalte |
--  |
-- Custom CSS Styling |
-- Slideshow Background Image |
-- Slide-specific Background Images |
-- Custom Logo, TOC, and Footnotes |
 
 ---
 
 ## Nachteile von Display Grid
 
 - Browsersupport |
- +Firefox 57+, Chrome 62+, Edge 16+, Opera
- + Safari 11+, supportet nicht alle Eigenschaften (grid-template-rows)
- + IE 11 unterstützt es nur teils, darunter nicht mehr
- + Spezielle Prefixe nötig für IE
-
+  +Firefox 57+, Chrome 62+, Edge 16+, Opera
+  + Safari 11+, supportet nicht alle Eigenschaften (grid-template-rows)
+  + IE 11 unterstützt es nur teils, darunter nicht mehr
+  + Spezielle Prefixe nötig für IE
 - Neu im Webbereich |
-- 
 
 ---
 
