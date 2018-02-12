@@ -5,13 +5,22 @@
  * https://github.com/gitpitch/gitpitch/wiki/Slideshow-Custom-CSS
  */
 
-body {
-  /* fallback for old browsers */
-  background: #8E0E00;
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(to right, #1F1C18, #8E0E00);
+.reveal h1{
+  font-size: 2.8em;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  color: #1db992;
+}
+
+.reveal h2{
+  font-size: 1.5em;
+  color: #1db992;
+}
+
+.reveal h3{
+  font-size: 0.8em;
+  padding-bottom: 70px;
+  color: #1db992;
 }
 
 .reveal pre {
@@ -23,7 +32,6 @@ body {
   font-size: 1.2em;
   line-height: 1.2;
   max-height: 50vh !important;
-  opacity: 0.95;
   border-radius: 10px;
 }
 
@@ -38,30 +46,35 @@ body {
 
 .reveal p span.slide-title {
   color: white;
-  background: #54140c;
   padding: 4px 15px;
   opacity: 0.75 !important;
   border-radius: 15px;
 }
-.reveal div.left {
-    float: left;
-    z-index: -10;
-    width: 45%;
+
+.hljs {
+  background : none;
 }
 
-.reveal div.right {
-    float: right;
-    z-index: -10;
-    width: 55%;
-}
-
-.reveal a.pro-link {
-    font-size: 0.5em;
+.reveal a{
+  font-size: 24px;
+  color: #fff;
 }
 
 #gp-logo img {
   max-height: 2em;
   max-width: none;
+}
+
+.reveal .slides section .fragment.visible{
+  font-size: 0.73em;
+}
+
+.reveal:not(.has-vertical-slides) .controls .navigate-right, .reveal:not(.has-vertical-slides) .controls .navigate-left, .reveal .progress{
+  color: #1db992;
+}
+
+#title-footer #notification{
+  display: none;
 }
 
 .gp-tip { font-size : 1.5em; }
@@ -70,3 +83,14 @@ body {
 
 .gp-download { margin-left: 10px; }
 
+.reveal ol, .reveal dl, .reveal ul{
+  width: 980px;
+}
+
+.gp-menu-bars{
+  display: none;
+}
+
+.reveal strong{
+  color: #1db992;
+}

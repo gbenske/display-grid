@@ -6,12 +6,18 @@
  */
 
 body {
-  /* fallback for old browsers */
-  background: #8E0E00;
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(to right, #1F1C18, #8E0E00);
+  background: #000;
+  background-color: #000;
+}
+
+html:-webkit-full-screen-ancestor {
+  background: #000;
+  background-color: #000;
+}
+
+html:-moz-full-screen-ancestor {
+  background: #000;
+  background-color: #000;
 }
 
 .reveal pre {
@@ -23,7 +29,6 @@ body {
   font-size: 1.2em;
   line-height: 1.2;
   max-height: 60vh !important;
-  opacity: 0.95;
   border-radius: 10px;
 }
 
@@ -38,26 +43,14 @@ body {
 
 .reveal p span.slide-title {
   color: white;
-  background: #54140c;
   padding: 4px 15px;
   opacity: 0.75 !important;
   border-radius: 15px;
   display: none;
 }
-.reveal div.left {
-    float: left;
-    z-index: -10;
-    width: 45%;
-}
 
-.reveal div.right {
-    float: right;
-    z-index: -10;
-    width: 55%;
-}
-
-.reveal a.pro-link {
-    font-size: 0.5em;
+.hljs {
+  background : none;
 }
 
 #gp-logo img {
