@@ -1,34 +1,44 @@
 # Display Grid
 
-### Eine Präsentation von German Benske
+### Eine Präsentation von German "Adonis" Benske
 
 ---
 
 
 ## Vorteile von Display Grid
 
-- Code Presenting |
-- Repo Source, Static Blocks, GIST |
+- Einfaches Strukturieren der Inhalte |
+-  |
 - Custom CSS Styling |
 - Slideshow Background Image |
 - Slide-specific Background Images |
 - Custom Logo, TOC, and Footnotes |
 
----?code=sample/go/server.go&lang=golang&title=Golang File
-
-@[1,3-6](Present code found within any repo source file.)
-@[8-18](Without ever leaving your slideshow.)
-@[19-28](Using GitPitch code-presenting with (optional) annotations.)
-
 ---
 
 ## Nachteile von Display Grid
 
+- Browsersupport |
+ +Firefox 57+, Chrome 62+, Edge 16+, Opera
+ + Safari 11+, supportet nicht alle Eigenschaften (grid-template-rows)
+ + IE 11 unterstützt es nur teils, darunter nicht mehr
+ + Spezielle Prefixe nötig für IE
+
+- Neu im Webbereich |
+- 
 
 ---
 
-## Der Vergleich von anderen display ...
+## Display grid vs flex
 
+- Grid |
+ + weniger media queries
+ + Positionierung der Elemente in 2 Dimensionen (columns und rows)
+
+
+---
+
+## Funktionsweise von Display Grid
 
 ---
 
@@ -71,6 +81,6 @@ http.createServer(function (request, response) {
 
 ---
 
-# Questions?
+# Fragen?
 
 
